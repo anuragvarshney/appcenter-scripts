@@ -4,7 +4,8 @@ class Main {
     companion object {
         @JvmStatic
         fun main(args: Array<String>) {
-            println("kotlin")
+            val appCenter = AppCenter("Smartquest")
+            println(appCenter.getAppNames())
         }
     }
 }
