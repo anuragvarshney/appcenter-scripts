@@ -6,7 +6,8 @@ dependencies {
     implementation "org.json:json:20180813"
     implementation "org.jetbrains.kotlin:kotlin-stdlib-jdk7:1.2.70"
     runtimeClasspath files(compileKotlin.destinationDir)
+    implementation 'junit:junit:4.12'
 }
 
-sourceCompatibility = "1.6"
-targetCompatibility = "1.6"
+sourceCompatibility = JavaVersion.VERSION_1_8
+targetCompatibility = JavaVersion.VERSION_1_8
